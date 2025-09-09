@@ -1,0 +1,13 @@
+2025-09-09 16:02:13 Starting new HTTP connection (1): 127.0.0.1:9999
+2025-09-09 16:02:13 http://127.0.0.1:9999 "GET /api/users?offset=0&limit=2 HTTP/1.1" 200 287
+2025-09-09 16:02:13 [logging_middleware._process_log_outputs:143]-[INFO]:
+====================================================================================================
+🅰️ <API>: GetUsersAPI 获取用户列表
+🚀 <Request>
+     URL: http://127.0.0.1:9999/api/users
+     Method: GET
+     Request Params: {'offset': 0, 'limit': 2}
+✅ <Response>
+     Response Body: {'ret_code': 0, 'message': 'success', 'data': [{'id': 1, 'username': '张三', 'email': 'zhangsan@example.com', 'created_at': '2025-09-09T16:01:40.762479', 'is_active': True}, {'id': 2, 'username': '李四', 'email': 'lisi@example.com', 'created_at': '2025-09-09T16:01:40.762479', 'is_active': True}], 'total': 3}
+     Elapsed: 0.005243s
+====================================================================================================

@@ -1,4 +1,4 @@
-env: mock
+env: test
 mock:
   base_url: http://127.0.0.1:9999
   account:
@@ -11,3 +11,9 @@ release:
     user: aomaker
     pwd: '123456'
 
+
+test:
+  base_url: http://127.0.0.1:9999
+  account:
+    user: aomaker
+    pwd: '123456'

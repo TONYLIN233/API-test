@@ -1,0 +1,12 @@
+2025-09-09 16:02:13 http://127.0.0.1:9999 "GET /api/products?offset=0&limit=10&category=%E7%94%B5%E5%AD%90%E4%BA%A7%E5%93%81 HTTP/1.1" 200 297
+2025-09-09 16:02:13 [logging_middleware._process_log_outputs:143]-[INFO]:
+====================================================================================================
+🅰️ <API>: GetProductsAPI 获取产品列表
+🚀 <Request>
+     URL: http://127.0.0.1:9999/api/products
+     Method: GET
+     Request Params: {'offset': 0, 'limit': 10, 'category': '电子产品'}
+✅ <Response>
+     Response Body: {'ret_code': 0, 'message': 'success', 'data': [{'id': 1, 'name': '笔记本电脑', 'price': 5999.0, 'description': '高性能笔记本', 'stock': 100, 'category': '电子产品'}, {'id': 2, 'name': '智能手机', 'price': 3999.0, 'description': '最新款智能手机', 'stock': 200, 'category': '电子产品'}], 'total': 2}
+     Elapsed: 0.002371s
+====================================================================================================

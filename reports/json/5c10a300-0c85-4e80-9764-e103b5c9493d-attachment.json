@@ -1,0 +1,40 @@
+{
+  "request": {
+    "url": "http://127.0.0.1:9999/api/comments",
+    "method": "GET",
+    "params": {
+      "product_id": 1,
+      "min_rating": 4,
+      "offset": 0,
+      "limit": 10
+    },
+    "data": null,
+    "json": null
+  },
+  "response": {
+    "status_code": 200,
+    "body": {
+      "ret_code": 0,
+      "message": "success",
+      "data": [
+        {
+          "id": 1,
+          "product_id": 1,
+          "user_id": 1,
+          "content": "非常好用的笔记本电脑",
+          "rating": 5,
+          "created_at": "2025-09-09T16:01:40.762479"
+        },
+        {
+          "id": 2,
+          "product_id": 1,
+          "user_id": 2,
+          "content": "性价比很高",
+          "rating": 4,
+          "created_at": "2025-09-09T16:01:40.762479"
+        }
+      ],
+      "total": 2
+    }
+  }
+}
