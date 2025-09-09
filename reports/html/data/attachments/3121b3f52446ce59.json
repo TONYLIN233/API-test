@@ -1,0 +1,28 @@
+{
+  "request": {
+    "url": "http://127.0.0.1:9999/api/users/1/avatar",
+    "method": "PATCH",
+    "params": null,
+    "data": null,
+    "json": {
+      "file_name": "avatar.png",
+      "file_size": 2048,
+      "file_type": "image/png"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "body": {
+      "ret_code": 0,
+      "message": "头像上传成功",
+      "data": {
+        "file_id": "avatar_1_20250906143926",
+        "file_name": "avatar.png",
+        "file_size": 2048,
+        "file_type": "image/png",
+        "upload_time": "2025-09-06T14:39:26.546115",
+        "download_url": "https://example.com/files/avatar_1_20250906143926"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "request": {
+    "url": "http://127.0.0.1:9999/api/products/1",
+    "method": "GET",
+    "params": null,
+    "data": null,
+    "json": null
+  },
+  "response": {
+    "status_code": 200,
+    "body": {
+      "ret_code": 0,
+      "message": "success",
+      "data": {
+        "id": 1,
+        "name": "笔记本电脑",
+        "price": 5999.0,
+        "description": "高性能笔记本",
+        "stock": 100,
+        "category": "电子产品"
+      }
+    }
+  }
+}
