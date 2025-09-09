@@ -1,0 +1,31 @@
+{
+  "request": {
+    "url": "http://127.0.0.1:9999/api/products/1/comments",
+    "method": "POST",
+    "params": null,
+    "data": null,
+    "json": {
+      "id": 5,
+      "product_id": 1,
+      "user_id": 2,
+      "content": "非常满意的购物体验",
+      "rating": 5,
+      "created_at": "2025-09-06T14:39:26.499139"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "body": {
+      "ret_code": 0,
+      "message": "评论添加成功",
+      "data": {
+        "id": 5,
+        "product_id": 1,
+        "user_id": 2,
+        "content": "非常满意的购物体验",
+        "rating": 5,
+        "created_at": "2025-09-06T14:39:26.499139"
+      }
+    }
+  }
+}

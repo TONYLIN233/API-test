@@ -1,0 +1,13 @@
+env: mock
+mock:
+  base_url: http://127.0.0.1:9999
+  account:
+    user: aomaker
+    pwd: '123456'
+
+release:
+  base_url: https://release.aomaker.com
+  account:
+    user: aomaker
+    pwd: '123456'
+

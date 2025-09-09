@@ -1,0 +1,12 @@
+2025-09-06 14:39:26 http://127.0.0.1:9999 "POST /api/users HTTP/1.1" 200 170
+2025-09-06 14:39:26 [logging_middleware._process_log_outputs:143]-[INFO]:
+====================================================================================================
+🅰️ <API>: CreateUserAPI 创建新用户
+🚀 <Request>
+     URL: http://127.0.0.1:9999/api/users
+     Method: POST
+     Request Json: {'id': 4, 'username': '赵六', 'email': 'zhaoliu@example.com', 'created_at': '2025-09-06T14:39:26.355800', 'is_active': True}
+✅ <Response>
+     Response Body: {'ret_code': 0, 'message': '用户创建成功', 'data': {'id': 4, 'username': '赵六', 'email': 'zhaoliu@example.com', 'created_at': '2025-09-06T14:39:26.355800', 'is_active': True}}
+     Elapsed: 0.002276s
+====================================================================================================

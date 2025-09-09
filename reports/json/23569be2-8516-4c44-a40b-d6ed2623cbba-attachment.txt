@@ -1,0 +1,12 @@
+2025-09-06 14:39:26 http://127.0.0.1:9999 "PATCH /api/users/1/avatar HTTP/1.1" 200 266
+2025-09-06 14:39:26 [logging_middleware._process_log_outputs:143]-[INFO]:
+====================================================================================================
+🅰️ <API>: UploadAvatarAPI 上传用户头像
+🚀 <Request>
+     URL: http://127.0.0.1:9999/api/users/1/avatar
+     Method: PATCH
+     Request Json: {'file_name': 'avatar.png', 'file_size': 2048, 'file_type': 'image/png'}
+✅ <Response>
+     Response Body: {'ret_code': 0, 'message': '头像上传成功', 'data': {'file_id': 'avatar_1_20250906143926', 'file_name': 'avatar.png', 'file_size': 2048, 'file_type': 'image/png', 'upload_time': '2025-09-06T14:39:26.546115', 'download_url': 'https://example.com/files/avatar_1_20250906143926'}}
+     Elapsed: 0.002348s
+====================================================================================================

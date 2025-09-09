@@ -1,0 +1,1 @@
+[{"values":["main"],"name":"run_mode"},{"values":["mock"],"name":"current_env"},{"values":["http://127.0.0.1:9999"],"name":"base_url"},{"values":["{'user': 'aomaker', 'pwd': '123456'}"],"name":"account"}]

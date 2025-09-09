@@ -1,0 +1,11 @@
+2025-09-06 14:39:26 http://127.0.0.1:9999 "GET /api/user_details/1 HTTP/1.1" 200 302
+2025-09-06 14:39:26 [logging_middleware._process_log_outputs:143]-[INFO]:
+====================================================================================================
+🅰️ <API>: GetUserDetailAPI 获取用户详细信息
+🚀 <Request>
+     URL: http://127.0.0.1:9999/api/user_details/1
+     Method: GET
+✅ <Response>
+     Response Body: {'ret_code': 0, 'message': 'success', 'data': {'user_id': 1, 'address': {'street': '人民路123号', 'city': '上海', 'province': '上海', 'postal_code': '200001', 'country': '中国'}, 'phone': '13800138000', 'birth_date': '1990-01-01T00:00:00', 'tags': ['VIP', '常客'], 'preferences': {'theme': 'dark', 'newsletter': True}}}
+     Elapsed: 0.002489s
+====================================================================================================
